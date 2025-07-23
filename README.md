@@ -89,4 +89,3 @@ Bu proje, kullanıcıların randevularını kolayca oluşturup takip edebileceğ
 ## Katkı ve Lisans
 
 - Katkıda bulunmak için lütfen bir pull request gönderin.
-- Lisans bilgisi için LICENSE dosyasına bakınız. 
