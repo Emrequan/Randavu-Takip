@@ -88,4 +88,5 @@ Bu proje, kullanıcıların randevularını kolayca oluşturup takip edebileceğ
 
 ## Katkı ve Lisans
 
-Bu proje eğitim ve demo amaçlıdır. Geliştirmek veya kendi projelerinizde kullanmak için özgürsünüz. 
+- Katkıda bulunmak için lütfen bir pull request gönderin.
+- Lisans bilgisi için LICENSE dosyasına bakınız. 
