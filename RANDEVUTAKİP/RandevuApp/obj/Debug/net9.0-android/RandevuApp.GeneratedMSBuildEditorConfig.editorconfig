@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RandevuApp
+build_property.ProjectDir = /Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/AnaSayfa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.AnaSayfa.xaml
+build_metadata.AdditionalFiles.TargetPath = View/AnaSayfa.xaml
+build_metadata.AdditionalFiles.RelativePath = View/AnaSayfa.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/GirisSayfasi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.GirisSayfasi.xaml
+build_metadata.AdditionalFiles.TargetPath = View/GirisSayfasi.xaml
+build_metadata.AdditionalFiles.RelativePath = View/GirisSayfasi.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/KayitSayfasi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.KayitSayfasi.xaml
+build_metadata.AdditionalFiles.TargetPath = View/KayitSayfasi.xaml
+build_metadata.AdditionalFiles.RelativePath = View/KayitSayfasi.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/KullaniciKayitPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.KullaniciKayitPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View/KullaniciKayitPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View/KullaniciKayitPage.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/RandevuListesiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.RandevuListesiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View/RandevuListesiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View/RandevuListesiPage.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/RandevuOlustur.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.RandevuOlustur.xaml
+build_metadata.AdditionalFiles.TargetPath = View/RandevuOlustur.xaml
+build_metadata.AdditionalFiles.RelativePath = View/RandevuOlustur.xaml
+
+[/Users/user/Desktop/RANDEVUTAKİPÇALIŞIYO/RandevuApp/View/SifreDegistirPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RandevuApp.View.SifreDegistirPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View/SifreDegistirPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View/SifreDegistirPage.xaml

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             x:Class="RandevuApp.RandevuOlusturPage"
+             Title="Randevu Oluştur">
+
+        <ScrollView>
+                <StackLayout Padding="20"
+                             Spacing="15">
+
+                        <Entry x:Name="baslikEntry"
+                               Placeholder="Randevu Başlığı"/>
+
+                        <Editor x:Name="aciklamaEditor"
+                                Placeholder="Açıklama"
+                                AutoSize="TextChanges"/>
+
+                        <DatePicker x:Name="tarihPicker"
+                                    MinimumDate="{x:Static sys:DateTime.Today}"/>
+
+                        <TimePicker x:Name="saatPicker"/>
+
+                        <Label Text="Randevu Türü"
+                               FontAttributes="Bold"/>
+                        <Picker x:Name="randevuTuruPicker"
+                                Title="Seçiniz">
+                                <Picker.Items>
+                                        <x:String>İş</x:String>
+                                        <x:String>Özel</x:String>
+                                        <x:String>Sağlık</x:String>
+                                        <x:String>Diğer</x:String>
+                                </Picker.Items>
+                        </Picker>
+
+                        <StackLayout Orientation="Horizontal"
+                                     VerticalOptions="Center">
+                                <CheckBox x:Name="hatirlatmaCheckbox"/>
+                                <Label Text="Hatırlatma Gönder"
+                                       VerticalOptions="Center"/>
+                        </StackLayout>
+
+                        <Label Text="Tekrarlama"
+                               FontAttributes="Bold"/>
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="10">
+                                <RadioButton GroupName="tekrar"
+                                             Content="Yok"
+                                             IsChecked="True"
+                                             x:Name="tekrarYok"/>
+                                <RadioButton GroupName="tekrar"
+                                             Content="Günlük"
+                                             x:Name="tekrarGunluk"/>
+                                <RadioButton GroupName="tekrar"
+                                             Content="Haftalık"
+                                             x:Name="tekrarHaftalik"/>
+                        </StackLayout>
+
+                        <Button Text="Randevu Oluştur"
+                                Clicked="OnRandevuOlusturClicked"/>
+
+                </StackLayout>
+        </ScrollView>
+
+</ContentPage>

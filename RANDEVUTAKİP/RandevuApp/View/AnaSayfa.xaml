@@ -1,0 +1,65 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RandevuApp.Views.AnaSayfa"
+             Title="Randevu Listesi">
+
+       <VerticalStackLayout Padding="10"
+                            Spacing="10">
+
+              <!-- Kullanıcı Bilgisi ve Çıkış Butonu -->
+              <HorizontalStackLayout HorizontalOptions="Fill"
+                                     VerticalOptions="Center"
+                                     Spacing="15">
+                     <Label x:Name="LblKullaniciAdi"
+                            Text="Hoşgeldiniz, Kullanıcı"
+                            VerticalOptions="Center"/>
+                     <Button Text="Çıkış"
+                             Clicked="BtnCikis_Clicked"
+                             HorizontalOptions="EndAndExpand"/>
+              </HorizontalStackLayout>
+
+              <!-- Tarih Filtreleme -->
+              <DatePicker x:Name="DpFiltreTarih"
+                          DateSelected="DpFiltreTarih_DateSelected"
+                          Date="{Binding SecilenTarih}"/>
+
+              <!-- Randevu Listesi -->
+              <CollectionView x:Name="CvRandevuListesi"
+                              SelectionMode="None">
+                     <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                   <Frame BorderColor="LightGray"
+                                          CornerRadius="5"
+                                          Padding="10"
+                                          Margin="5">
+                                          <VerticalStackLayout>
+                                                 <Label Text="{Binding Baslik}"
+                                                        FontAttributes="Bold"
+                                                        FontSize="16"/>
+                                                 <Label Text="{Binding Aciklama}"
+                                                        FontSize="14"/>
+                                                 <Label Text="{Binding RandevuTarihi, StringFormat='Randevu Tarihi: {0:dd.MM.yyyy HH:mm}'}"
+                                                        FontSize="12"
+                                                        TextColor="Gray"/>
+                                                 <Label Text="{Binding KayitTarihi, StringFormat='Kaydedildi: {0:dd.MM.yyyy HH:mm}'}"
+                                                        FontSize="12"
+                                                        TextColor="Gray"/>
+                                          </VerticalStackLayout>
+                                   </Frame>
+                            </DataTemplate>
+                     </CollectionView.ItemTemplate>
+              </CollectionView>
+
+              <!-- Yeni Randevu Butonu -->
+              <Button Text="Yeni Randevu Oluştur"
+                      Clicked="BtnYeniRandevu_Clicked"/>
+
+              <!-- Randevularım Butonu -->
+              <Button Text="Randevularım"
+                      Clicked="BtnRandevularim_Clicked"
+                      BackgroundColor="#512BD4"
+                      TextColor="White"
+                      Margin="0,10,0,0"/>
+
+       </VerticalStackLayout>
+</ContentPage>

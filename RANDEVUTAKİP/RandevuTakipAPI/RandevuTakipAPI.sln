@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandevuTakipAPI", "RandevuTakipAPI.csproj", "{441D4032-B351-CF15-1CED-20D44F184A85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441D4032-B351-CF15-1CED-20D44F184A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441D4032-B351-CF15-1CED-20D44F184A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441D4032-B351-CF15-1CED-20D44F184A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441D4032-B351-CF15-1CED-20D44F184A85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1371273B-21C4-4678-B371-EC1591EB3419}
+	EndGlobalSection
+EndGlobal

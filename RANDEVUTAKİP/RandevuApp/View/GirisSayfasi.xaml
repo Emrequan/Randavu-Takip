@@ -1,0 +1,47 @@
+<ContentPage xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="RandevuApp.View.GirisSayfasi"
+             Title="Giriş Yap"
+             BackgroundColor="White">
+
+       <VerticalStackLayout Padding="30"
+                            Spacing="20">
+
+              <Label Text="Randevu Takip Sistemine Giriş Yap"
+                     FontSize="24"
+                     HorizontalOptions="Center"/>
+
+              <Entry x:Name="emailEntry"
+                     Placeholder="E-posta"
+                     Keyboard="Email"/>
+
+              <Entry x:Name="sifreEntry"
+                     Placeholder="Şifre"
+                     IsPassword="True"/>
+
+              <Button Text="Giriş Yap"
+                      Clicked="OnGirisYapClicked"
+                      BackgroundColor="#007AFF"
+                      TextColor="White"/>
+
+              <HorizontalStackLayout HorizontalOptions="Center">
+                     <Label Text="Hesabın yok mu?"/>
+                     <Label Text=" Kayıt Ol"
+                            TextColor="Blue">
+                            <Label.GestureRecognizers>
+                                   <TapGestureRecognizer Tapped="OnKayitOlTapped"/>
+                            </Label.GestureRecognizers>
+                     </Label>
+              </HorizontalStackLayout>
+
+
+              <Label Text="Şifremi Unuttum"
+                     TextColor="Blue"
+                     HorizontalOptions="Center">
+                     <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSifremiUnuttumClicked"/>
+                     </Label.GestureRecognizers>
+              </Label>
+
+       </VerticalStackLayout>
+</ContentPage>
